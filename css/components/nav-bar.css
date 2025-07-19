@@ -1,6 +1,10 @@
 .nav {
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
   background-color: #f9f9fa;
+  width: 100%;
   height: 56px;
+  position: fixed;
+  bottom: 0;
 }
 
 .nav__list {
@@ -22,9 +26,6 @@
   background-color: #aeaeae;
 }
 
-.nav_btn i {
-  color: #747474;
-}
-
-.nav_link {
+.nav__link {
+  color: #2e363e;
 }
