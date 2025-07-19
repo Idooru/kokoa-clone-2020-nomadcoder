@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -11,8 +12,6 @@
   font-weight: 600;
 }
 
-.screen-header__icons {
-  width: 100px;
-  display: flex;
-  justify-content: space-between;
+.screen-header__icons span {
+  margin-left: 20px;
 }
