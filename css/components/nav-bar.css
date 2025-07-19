@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.nav_btn:active {
+.nav__btn:active {
   background-color: #aeaeae;
 }
 
