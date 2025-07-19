@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.nav_btn {
+.nav__btn {
   width: 25%;
   height: inherit;
   display: flex;
@@ -28,4 +28,31 @@
 
 .nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  border-radius: 50%;
+  background-color: tomato;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__message {
+  width: 20px;
+  height: 20px;
+  top: -12px;
+  right: -12px;
+}
+
+.nav__ellipsis {
+  width: 5px;
+  height: 5px;
+  top: -3px;
+  right: -5px;
 }
