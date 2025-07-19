@@ -1,0 +1,30 @@
+.nav {
+  background-color: #f9f9fa;
+  height: 56px;
+}
+
+.nav__list {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_btn {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_btn:active {
+  background-color: #aeaeae;
+}
+
+.nav_btn i {
+  color: #747474;
+}
+
+.nav_link {
+}
