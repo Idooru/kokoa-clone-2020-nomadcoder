@@ -1,6 +1,7 @@
 .screen-header {
   margin-top: 30px;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
+  padding: var(--horizontal-space);
   display: flex;
   justify-content: space-between;
   align-items: center;
