@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.nav__btn:active {
+.nav_btn:active {
   background-color: #aeaeae;
 }
 
@@ -31,26 +31,14 @@
   position: relative;
 }
 
-.nav__notification {
-  border-radius: 50%;
-  background-color: tomato;
-  font-size: 12px;
-  font-weight: 600;
-  color: white;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav__message {
+.badge__message {
   width: 20px;
   height: 20px;
   top: -12px;
   right: -12px;
 }
 
-.nav__ellipsis {
+.badge__ellipsis {
   width: 5px;
   height: 5px;
   top: -3px;
