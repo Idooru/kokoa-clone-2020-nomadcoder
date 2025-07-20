@@ -1,0 +1,46 @@
+.badge__hanger {
+  position: relative;
+}
+
+.badge__ellipsisd {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: -3px;
+  right: -5px;
+}
+
+.find-icons {
+  display: flex;
+}
+
+.find-icons__icon {
+  width: 25%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.find-icons__icon i {
+  flex: 1;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-icons__icon span {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.find-icons__bottom-border {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
