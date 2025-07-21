@@ -10,37 +10,6 @@
   right: -5px;
 }
 
-.find-icons {
-  display: flex;
-  border-bottom: var(--main-border);
-  padding-bottom: 15px;
-}
-
-.find-icons__icon {
-  width: 25%;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.find-icons__icon i {
-  flex: 1;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.find-icons__icon span {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .recommended-friends {
   padding: 25px 0;
   border-bottom: var(--main-border);
