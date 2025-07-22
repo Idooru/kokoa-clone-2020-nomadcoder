@@ -1,7 +1,7 @@
-.badge__messaged {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 10px;
-  right: 0;
+.chat__hamburger {
+  margin-left: 15px;
+}
+
+.chat-screen {
+  background-color: #abc1d1;
 }
