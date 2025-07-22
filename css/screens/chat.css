@@ -99,14 +99,14 @@
 }
 
 .reply .reply__column:first-child {
-  flex: 1;
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .reply .reply__column:last-child {
-  flex: 9;
+  width: 85%;
   position: relative;
 }
 
@@ -115,8 +115,7 @@
 }
 
 .reply input {
-  /* height: 30px; */
-  padding: 10px;
+  padding: 10px 0 10px 10px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
